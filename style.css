@@ -1,9 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+body{
+    background-color: whitesmoke;
+    font-family:'Combo', cursive;
+}
+.heading{
+    align-items: center;
+    text-align: center;
+    background-color: #f2c94c;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: block;
+
+}
 textarea{
     width: 90%;
     height: 15vh;
     display: block;
     margin: 1rem;
     padding: 2rem;
+    box-sizing: border-box;
+    min-height: 20vh;
+    font-size: large;
+    font-family: inherit;
+    overflow: scroll;
 }
 
 #output{
@@ -12,5 +32,26 @@ textarea{
     width: 80%;
     margin: 1rem;
     padding: 1rem;
+    overflow: scroll;
+    min-height: 10vh;
+    max-height: 20vh;
+    border: 1px solid black;
+    display: block;
 
+}
+button{
+    background-color: #f2c94c;
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-size: large;
+    font-family:'Combo', cursive ;
+    text-align: center;
+}
+
+footer{
+    padding: 2rem;
+    background-color: #f2c94c;
+    text-align: center;
+    align-items: center;
 }

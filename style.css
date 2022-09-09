@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
 
+:root{
+    --background_color : #f2c94c;
+    --border_color: black;
+}
 body{
     background-color: whitesmoke;
     font-family:'Combo', cursive;
@@ -7,7 +11,7 @@ body{
 .heading{
     align-items: center;
     text-align: center;
-    background-color: #f2c94c;
+    background-color: var(--background_color);
     padding: 2rem;
     box-sizing: border-box;
     display: block;
@@ -27,7 +31,7 @@ textarea{
 }
 
 #output{
-    border: 1px solid black;
+    border: 1px solid var(--border_color);
     height: 10vh;
     width: 80%;
     margin: 1rem;
@@ -35,12 +39,11 @@ textarea{
     overflow: scroll;
     min-height: 10vh;
     max-height: 20vh;
-    border: 1px solid black;
     display: block;
 
 }
 button{
-    background-color: #f2c94c;
+    background-color:var(--background_color);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
@@ -51,7 +54,7 @@ button{
 
 footer{
     padding: 2rem;
-    background-color: #f2c94c;
+    background-color: var(--background_color);
     text-align: center;
     align-items: center;
 }
